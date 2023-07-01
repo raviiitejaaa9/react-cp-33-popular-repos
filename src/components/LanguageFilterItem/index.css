@@ -1,0 +1,15 @@
+/* Write your CSS here */
+
+.language-btn {
+  border: none;
+  height: 23px;
+  border-radius: 13px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  min-width: 50px;
+}
+
+.highlighted-btn {
+  border: 2px solid #0284c7;
+}

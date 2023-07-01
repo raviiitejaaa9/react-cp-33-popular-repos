@@ -1,0 +1,57 @@
+/* Write your CSS here 
+avatarUrl : eachItem.avatar_url,
+        forksCount : eachItem.forks_count,
+        id : eachItem.id,
+        issuesCount : eachItem.issues_count,
+        name : eachItem.name,
+        startCount : eachItem.starts_count,
+*/
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.app-container {
+  font-family: 'Roboto';
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app-head {
+  font-family: 'Lobster';
+  font-size: 52px;
+}
+
+.btn-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+}
+
+.popular-repos-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80vw;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.api-call-fail-img {
+  width: 72vw;
+  height: 60vh;
+  margin-top: 20px;
+}
+
+.something-wrong {
+  font-size: 35px;
+  font-family: 'Lobster';
+  text-align: center;
+}

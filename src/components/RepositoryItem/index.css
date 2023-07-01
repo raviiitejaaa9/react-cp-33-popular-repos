@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.each-repo-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+  height: 350px;
+  margin: 5px;
+}
+
+.repo-item-img {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+}
+
+.stars-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #1e293b;
+}
+
+.star-logo {
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+}
+
+.repo-name {
+  font-size: 18px;
+  align-self: center;
+  color: #e73959;
+}
